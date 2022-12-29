@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurent website</title>
+    <!-- <link rel = "apple-touch-icon" sizes = "160x160" href = "touch-icon-ipad.png"> -->
+    <script src="https://kit.fontawesome.com/2519c771ee.js" crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            background-image: url(./img/Best.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+
+        }
+
+        header {
+            width: 100%;
+            height: auto;
+        }
+
+        header #nav {
+            display: flex;
+        }
+
+        .home {
+            margin-left: 30%;
+            padding-top: 40px;
+            font-weight: bold;
+        }
+
+        .home a {
+            text-decoration: none;
+            margin-right: 15px;
+            /* border: 2px solid white; */
+            margin: 10px;
+            color: rgb(211, 73, 22);
+        }
+
+        .home1:hover {
+            color: white;
+            /* background-color: grey; */
+            /* margin-right: 7px; */
+        }
+
+        img {
+            margin-left: 50px;
+            margin-top: 30px;
+            width: 160px;
+            height: 150;
+        }
+
+        .reserv {
+            margin-top: 45px;
+            /* border: 2px solid white; */
+            margin-bottom: auto;
+            padding-right: auto;
+            padding-left: 5px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-left: 20px;
+        }
+
+        .reserv a {
+            color: rgb(211, 73, 22);
+            font-variant-ligatures: common-ligatures;
+            margin-right: 28px;
+            font-size: large;
+            margin-left: 18px;
+            border: 2px solid red;
+            padding-top: 7px;
+            padding-bottom: 5px;
+            padding-left: 8px;
+            padding-right: 10px;
+
+        }
+
+        .d:hover {
+            background-color: rgb(211, 73, 22);
+            transition: 1s;
+            color: white;
+            padding-top: 7px;
+            padding-bottom: 5px;
+            padding-left: 8px;
+            padding-right: 10px;
+        }
+
+        #section {
+            text-align: center;
+            justify-content: space-between;
+            display: flex
+        }
+
+        #section .box {
+            /* border: 5px solid black; */
+            text-align: center;
+            width: 40vw;
+            display: flex;
+            height: 20vh;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-top: 20px;
+            padding-top: 80px;
+        }
+
+        #view {
+            margin-top: 40px;
+            margin-left: 50px;
+            display: flex;
+        }
+
+        #view ul li {
+            list-style-type: none;
+            border: 2px solid rgb(211, 73, 22);
+            padding-right: 14px;
+            padding-left: 14px;
+            padding-top: 6.5px;
+            padding-bottom: 8px;
+        }
+
+        #view ul a {
+            list-style-type: none;
+            text-decoration: none;
+            color: white;
+        }
+
+        .view2:hover {
+            background-color: rgb(211, 73, 22);
+            transition: 1s;
+        }
+
+
+        #footer {
+            /* background-color: grey; */
+            width: auto;
+            height: 60px;
+        }
+
+        #footer-logo img {
+            height: 50px;
+            text-align: center;
+            justify-content: space-between;
+            margin-left: 45%;
+            /* margin-top: 30px; */
+        }
+
+        #footer h1 {
+            text-align: center;
+            margin-bottom: 50px;
+            color: rgb(211, 73, 22);
+            /* color: white; */
+            font-style: serif;
+        }
+
+        #icon {
+            text-align: center;
+            background-color: beige;
+        }
+
+        .address {
+            color: white;
+            width: 350px;
+            text-align: center;
+            justify-content: space-between;
+            display: flex;
+            margin-left: 37%;
+        }
+
+        p {
+            flex-direction: column;
+            display: flex;
+            color: rgb(211, 73, 22);
+        }
+
+        .last {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav id="nav">
+            <a href="https://www.maffei.in/?playlist=f21070f&video=516a1f4">
+                <img src="./img/Group-133,jpg.svg" alt="Hotel Image" width="100px" height="100px">
+            </a>
+            <ul class="home">
+                <a class="home1" href="">Home</a>
+                <a class="home1" href="">Our Story</a>
+                <a class="home1" href="">Menu</a>
+                <a class="home1" href="">Events</a>
+                <a class="home1" href="">Gallery</a>
+                <a class="home1" href="">Contact us</a>
+            </ul>
+            <ul class="reserv">
+                <a class="d" href="">RESERVATION</a>
+            </ul>
+        </nav>
+
+        <section id="section">
+            <div class="box">
+                <h1>Your culinary adventure awaits</h1>
+                <p>Truly authentic Mediterranean food made with the freshest and finest ingredients</p>
+            </div>
+            <div class="box">
+                <a class="food-img" href="https://www.maffei.in/?playlist=f21070f&video=516a1f4"> <img
+                        src="./img/food.image.jpg" alt=""></a>
+            </div>
+            <div class="box">
+                <a href="https://www.maffei.in/?playlist=f21070f&video=516a1f4"><img src="./img/food.jpg" alt=""></a>
+            </div>
+        </section>
+        <div id="view">
+            <ul><a href="">
+                    <li class="view2">VIEW MENU</li>
+                </a></ul>
+            <ul><a href="">
+                    <li class="view2">RESERV A TABLE</li>
+                </a></ul>
+        </div>
+    </header>
+    <footer id="footer">
+        <div id="footer-logo">
+            <a href="https://www.maffei.in/?playlist=f21070f&video=516a1f4">
+                <img src="./img/Group-133,jpg.svg" alt="">
+            </a>
+            <h1>stay connected</h1>
+
+            <div id="icon">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="last">
+            <p class="address">Koramangala, Peace Vill, Municipal No. 23, 5th Cross, 5th Block, Koramangala, Bengaluru,
+                Bengaluru Urban,
+                Karnataka, 560095 For Reservation Call: 1800 547 1058</p>
+
+            <p>&copy; All Rights Reserved</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>
